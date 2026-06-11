@@ -1,0 +1,12 @@
+my name is rohit mathur and i m study in class 12 
+i am from bukhara
+my age is 78
+To commit files in Git, you must first stage your changes using git add and then save them to your local history using git commit -m "your message". Committing only saves snapshots locally; you must still use git push if you want to share them with a remote server like GitHub.Here is the step-by-step process to stage, commit, and verify your changes:1. Check Your Current ChangesBefore doing anything, look at what files have been modified or are currently untracked.bashgit status
+Use code with caution.Modified files will typically appear in red.2. Stage the FilesGit requires you to move changes into a "staging area" before they can be committed.To stage all modified and new files:bashgit add .
+Use code with caution.To stage a specific file only:bashgit add filename.txt
+Use code with caution.3. Verify the Staging Area (Optional)Run the status command again to ensure the correct files are ready for the snapshot.bashgit status
+Use code with caution.Staged files will now typically appear in green.4. Commit with a MessageSave the staged snapshot permanently to your local repository history. Always include a clear, descriptive message using the -m flag.bashgit commit -m "Your descriptive commit message"
+Use code with caution.5. Verify the HistoryConfirm that your commit was successfully created by viewing the local repository log.bashgit log --oneline
+Use code with caution.This will display a clean, single-line list of your recent commits.💡 Time-Saving ShortcutsSkip Staging for Tracked Files: If you are only modifying existing files (not adding brand new ones), you can combine staging and committing into one command:bashgit commit -am "Fix existing bug in code"
+Use code with caution.Fix the Last Commit: If you made a typo in your last commit message or forgot to include a file, you can modify it without creating a new history entry:bashgit commit --amend -m "Your new corrected message"
+Use code with caution.If you plan to sync these changes with a remote platform, would you like the steps to connect a remote repository or push your code to GitHub?
