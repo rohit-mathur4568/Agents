@@ -1,0 +1,9 @@
+Java is an object oriented programming language.
+
+Python is widely used in Artificial Intelligence and Machine Learning.
+
+SQL is used for managing databases.
+
+AWS provides cloud computing services.
+
+Cyber Security protects systems from attacks.
