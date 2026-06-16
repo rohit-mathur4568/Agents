@@ -1,0 +1,8 @@
+transformers
+torch
+sentencepiece
+accelerate
+openai-whisper
+sounddevice
+scipy
+pyttsx3
